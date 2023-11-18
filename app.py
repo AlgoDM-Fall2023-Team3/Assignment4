@@ -14,7 +14,7 @@ with c1:
     st.header("Image Search By Text")
 
     text_input = st.text_input("Enter Text Description")
-    api_url = "https://fb89-35-196-84-171.ngrok-free.app/search_images_by_text"
+    api_url = "https://10fe-35-196-84-171.ngrok-free.app/search_images_by_text"
 
     if st.button("Search by Text"):
         # Use the ngrok URL to make the API request
@@ -37,7 +37,7 @@ with c2:
 
     uploaded_file = st.file_uploader("Upload an image")
 
-    api_url = "https://fb89-35-196-84-171.ngrok-free.app/search_images_by_image"
+    api_url = "https://10fe-35-196-84-171.ngrok-free.app/search_images_by_image"
     if st.button("Search by Image") and uploaded_file is not None:
 
         bytes_data = uploaded_file.getvalue()
