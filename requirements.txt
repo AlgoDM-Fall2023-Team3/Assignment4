@@ -1,4 +1,4 @@
 streamlit
 requests
-base64
+base64==1.5
 json
