@@ -1,0 +1,5 @@
+streamlit
+requests
+io
+base64
+json
